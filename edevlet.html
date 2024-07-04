@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-Devlet Kayıt ve Giriş Sistemi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="register-form">
+            <h2>Kayıt Ol</h2>
+            <form>
+                <label for="register-username">Kullanıcı Adı:</label>
+                <input type="text" id="register-username" required>
+                <label for="register-password">Şifre:</label>
+                <input type="password" id="register-password" required>
+                <button type="button" onclick="register()">Kayıt Ol</button>
+            </form>
+        </div>
+        <div id="login-form">
+            <h2>Giriş Yap</h2>
+            <form>
+                <label for="login-username">Kullanıcı Adı:</label>
+                <input type="text" id="login-username" required>
+                <label for="login-password">Şifre:</label>
+                <input type="password" id="login-password" required>
+                <button type="button" onclick="login()">Giriş Yap</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
